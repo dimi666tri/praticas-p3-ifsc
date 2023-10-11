@@ -30,10 +30,10 @@ public class main {
 		produtos.add(produtoTres);
 		
 			for (Produto p : produtos ) {
-				System.out.println(produto.getNome());
-				System.out.println(produto.getFornecedor());
-				System.out.println(produto.getPreco());
-				System.out.println(produto.getCodBarras());
+				System.out.println(p.getNome());
+				System.out.println(p.getFornecedor());
+				System.out.println(p.getPreco());
+				System.out.println(p.getCodBarras());
 		}
 		}
 	}
