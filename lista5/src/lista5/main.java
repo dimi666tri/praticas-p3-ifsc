@@ -13,16 +13,16 @@ public class main {
 		produto.setCodBarras((long)(4568123));
 		
 		Produto produtoDois = new Produto ();
-		produto.setNome("Flor 2");
-		produto.setFornecedor("Dimitri");
-		produto.setPreco(15.0);
-		produto.setCodBarras((long)(45699123));
+		produtoDois.setNome("Flor 2");
+		produtoDois.setFornecedor("Dimitri");
+		produtoDois.setPreco(15.0);
+		produtoDois.setCodBarras((long)(45699123));
 		
 		Produto produtoTres = new Produto ();
-		produto.setNome("Flor 3");
-		produto.setFornecedor("Dimitri");
-		produto.setPreco(17.0);
-		produto.setCodBarras((long)(468101823));
+		produtoTres.setNome("Flor 3");
+		produtoTres.setFornecedor("Dimitri");
+		produtoTres.setPreco(17.0);
+		produtoTres.setCodBarras((long)(468101823));
 		
 		ArrayList <Produto> produtos = new ArrayList <Produto>(3);
 		produtos.add(produto);
